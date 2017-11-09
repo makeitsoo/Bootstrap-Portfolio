@@ -1,0 +1,107 @@
+<!--Homework #2 : Bootstrap-Portfolio (recreation of Basic-Portfolio w/bootstrap components -->
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!--link bootstrap version 3.3.7-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--link bootswatch 
+<link rel="stylesheet" href="https://bootswatch.com/3/flatly/bootstrap.min.css">
+-->
+ <!-- link CSS stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<meta charset="UTF-8">
+  <title>Contact</title>
+</head>
+ 
+<!-- ALL the page content below here -->
+<body>
+ <!-- NAV BAR -->
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!--replace link with heading 1 
+      <h1 class="navbar-brand">Barry Williams</h1>
+      -->
+      <a class="navbar-brand" href="#">Barry Williams</a>
+    </div>
+    <!-- NAV buttons -->
+    <div class=" collaps navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+ <!-- end Nav bar -->
+
+<!-- MAIN CONTENT / ARTICLE-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1>Contact</h1>
+        </div> <!-- close page header -->
+
+        <!-- MAIN FORM -->
+        <div class="row">
+          <div class="col-md-12">
+                <form action="mailto:barrywilliams84@gmail.com" method="post" enctype="text/plain">
+                  Name<br>
+                  <div class="input-group input-group-md">
+                    <span class="input-group-addon" id="sizing-addon1">Name</span>
+                    <input type="text" class="form-control" placeholder="Abraham Lincoln" aria-describedby="sizing-addon1">
+                  </div>
+                  <br>
+                  Email<br>
+                  <div class="input-group input-group-md">
+                    <span class="input-group-addon" id="sizing-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="abraham_lincoln_rocks@domain.com" aria-describedby="sizing-addon1">
+                  </div>  
+                  <br><br>
+                  Message<br>
+                  <textarea placeholder="  Hello..."></textarea><br><br>
+                  <input class="contact_buttons" type="submit" value="Send">
+                  <input class="contact_buttons" type="reset" value="Reset">
+                </form>
+        
+          </div> <!-- close col-md-12 -->
+        </div>  <!-- close row -->
+      </div> <!-- close col-md-8 -->
+
+    <!-- SIDE BAR -->
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Connect With Me</h3>
+          </div>
+
+          <div class="panel-body">
+        <!--LinkedIn link-->
+            <a target="_blank" href="https://www.linkedin.com/in/barrywilliams4"><img class="social" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+        <!--StackOverflow link-->
+            <a target="_blank" href="https://stackexchange.com/users/11853069/makeitso"><img class="social" src="assets/images/stack.png" alt="StackOverflow"></a>
+        <!--Github link-->
+            <a target="_blank" href="https://github.com/makeitsoo"><img class="social" src="assets/images/git.png" alt="Github"></a>
+          </div> <!-- close panel body -->
+        </div> <!-- close panel -->
+      </div> <!-- close col-md-4 -->
+    </div> <!-- close row -->
+</div> <!-- close container -->
+</body>
+  <footer class="footer">
+    Copyright © 2017 Barry Williams
+  </footer>
+
+</html>
