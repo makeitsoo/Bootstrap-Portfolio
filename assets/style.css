@@ -1,0 +1,60 @@
+html {
+	/*width:auto;*/
+	background-image:url(../images/topography.png);
+	height:100%;
+}
+
+.main {
+	border-style:solid;
+	border-width:1px;
+	border-color:#dddddd;
+	background-color: #ffffff;
+	/*width:623px;*/
+	padding-left:25px;
+}
+
+.caption {
+
+}
+
+.sidebar {
+
+}
+
+
+.site {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	flex: 1 0 auto;
+}
+
+footer {
+	width: auto;
+    background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	color: #ffffff;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* below here is css for contact.html */
+
+textarea {
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	font-size: 20px;
+	color: inherit;
+	padding-bottom: 100px;
+  	width: 100%;
+	font-size: 13px;
+	color: inherit;
+	margin-top: 10px;
+}
+
+
+
