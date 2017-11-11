@@ -152,3 +152,19 @@ textarea {
 		padding-top:2px;
 	}
 }
+
+
+
+
+/* below here is for portfolio page */
+
+
+.img {
+	position: relative;
+	width:95%;
+}
+
+p.label {
+	position: relative;
+	/*bottom: 90px;*/
+}
