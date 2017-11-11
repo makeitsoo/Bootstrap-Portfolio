@@ -5,6 +5,12 @@ html {
 
 /* #name & or .nav may be causing issues with bootstrap responsive layout when resizing*/
 
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+
+
 #name {
     margin-left: 118px;
     border: solid 1px #4aaaa5;
@@ -19,6 +25,10 @@ html {
 	width:auto;
 }
 
+#side {
+	color:#4aaaa5;
+	font-weight: bold;
+}
 
 
 .nav {
@@ -32,6 +42,9 @@ html {
 	background-color: #ffffff;
 	/*width:623px;*/
 	padding-left:25px;
+}
+.mainDiv {
+	padding-bottom:20px;
 }
 
 #bioPic {
@@ -48,9 +61,7 @@ html {
 	background-image:url(../assets/images/topography.png);
 }
 .content {
-	/*margin-left:115px;*/
 	flex: 1 0 auto;
-
 }
 
 footer {
