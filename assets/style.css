@@ -1,7 +1,28 @@
 html {
 	/*width:auto;*/
-	background-image:url(../images/topography.png);
 	height:100%;
+}
+
+/* #name & or .nav may be causing issues with bootstrap responsive layout when resizing*/
+
+#name {
+    margin-left: 118px;
+    border: solid 1px #4aaaa5;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px;
+    line-height: 30px;
+}
+.sidebar {
+	width:auto;
+}
+
+
+
+.nav {
+	margin-right:240px;
 }
 
 .main {
@@ -13,22 +34,23 @@ html {
 	padding-left:25px;
 }
 
-.caption {
-
-}
-
-.sidebar {
-
+#bioPic {
+	width:100%;
+	height:auto;
 }
 
 
+/* site and content classes for sticky footer */
 .site {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
+	background-image:url(../assets/images/topography.png);
 }
 .content {
+	/*margin-left:115px;*/
 	flex: 1 0 auto;
+
 }
 
 footer {
@@ -44,6 +66,9 @@ footer {
 
 /* below here is css for contact.html */
 
+/* NOTE: <textarea> may be causing problems with bootstrap responsive layout*/
+
+
 textarea {
 	border: 1px solid #cccccc;
 	border-radius: 3px;
@@ -58,3 +83,37 @@ textarea {
 
 
 
+/* below here is @media queries*/
+
+
+@media screen and (max-width: 991px) {
+
+	.sidebar {
+		margin-top: 25px;
+	}
+
+}
+
+
+/*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
+@media screen and (max-width: 640px) {
+  /* The body's bg color will be #333 
+  html {
+    background-image:url(../assets/images/topography.png);
+  }
+  */
+
+	.wrapper {
+	    width: 100%;
+	  }
+
+	#name {
+		margin:0px;
+	}
+	.sidebar {
+		margin-top: 25px;
+	}
+}

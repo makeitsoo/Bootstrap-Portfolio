@@ -17,7 +17,7 @@
 </head>
  
 <!-- ALL the page content below here -->
-<body class="site">
+<body class="site wrapper">
  <!-- NAV BAR -->
  <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -32,7 +32,7 @@
       <!--replace link with heading 1 
       <h1 class="navbar-brand">Barry Williams</h1>
       -->
-      <a class="navbar-brand" href="#">Barry Williams</a>
+      <a class="navbar-brand" id="name" href="#">Barry Williams</a>
     </div>
     <!-- NAV buttons -->
     <div class=" collaps navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -55,7 +55,7 @@
         </div> <!-- close page header -->
         <div class="row">
           <div class="col-md-3">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/The_Brady_Bunch_Barry_Williams_1973.jpg/170px-The_Brady_Bunch_Barry_Williams_1973.jpg" class="thumbnail" alt="Photo of Barry">
+              <img id="bioPic" src="assets/images/GuardHouse.jpg" class="thumbnail" alt="Photo of Barry">
           </div>
           <div class="col-md-9">
               <div class="caption">
@@ -66,7 +66,12 @@
           </div> <!-- close col-md-9 -->
         </div>  <!-- close row -->
       </div> <!-- close col-md-8 -->
+<!--if want more space between main content and sidebar can create a separate column for it using code below and changing the col-md-8 class above to col-md-7:
 
+      <div class="col-md-1">
+        <p></p>
+      </div>
+-->
     <!-- SIDE BAR -->
       <div class="col-md-4 sidebar">
         <div class="panel panel-default">
