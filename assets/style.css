@@ -9,7 +9,14 @@ h1, h2, h3 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 }
+h1 {
+	font-weight: bold;
+	font-size: 28px;
+}
 
+.pHeader {
+	margin-top:0px;
+}
 
 #name {
     margin-left: 118px;
@@ -62,6 +69,7 @@ h1, h2, h3 {
 }
 .content {
 	flex: 1 0 auto;
+	padding-top:15px;
 }
 
 footer {
