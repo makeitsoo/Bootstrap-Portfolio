@@ -16,10 +16,11 @@ h1 {
 
 .pHeader {
 	margin-top:0px;
+	border-bottom: 2px solid #ccc;
 }
 
 #name {
-    margin-left: 118px;
+    margin-left: 133px;
     border: solid 1px #4aaaa5;
     background-color: #4aaaa5;
     color: white;
@@ -27,6 +28,7 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 10px;
     line-height: 30px;
+    font-weight: bold;
 }
 .sidebar {
 	width:auto;
@@ -39,7 +41,7 @@ h1 {
 
 
 .nav {
-	margin-right:240px;
+	margin-right:220px;
 }
 
 .main {
@@ -49,6 +51,8 @@ h1 {
 	background-color: #ffffff;
 	/*width:623px;*/
 	padding-left:25px;
+	margin-right:15px;
+	margin-left:15px;
 }
 .mainDiv {
 	padding-bottom:20px;
@@ -70,6 +74,14 @@ h1 {
 .content {
 	flex: 1 0 auto;
 	padding-top:15px;
+}
+.contact_buttons {
+    background-color: #4aaaa5;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    font-size: 15px;
 }
 
 footer {
@@ -125,6 +137,7 @@ textarea {
   }
   */
 
+
 	.wrapper {
 	    width: 100%;
 	  }
@@ -134,5 +147,8 @@ textarea {
 	}
 	.sidebar {
 		margin-top: 25px;
+	}
+	.content {
+		padding-top:2px;
 	}
 }
