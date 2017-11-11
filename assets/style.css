@@ -57,6 +57,9 @@ h1 {
 .mainDiv {
 	padding-bottom:20px;
 }
+.mainDiv2 {
+	padding-bottom:0px;
+}
 
 #bioPic {
 	width:100%;
@@ -167,4 +170,20 @@ textarea {
 p.label {
 	position: relative;
 	/*bottom: 90px;*/
+	bottom:30px;
+	color: #ffffff;
+    background-color: #4aaaa5;
+    display:inline-block;
+    width:95%;
+}
+
+.mainp {
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+
+p {
+	color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.3;
 }
